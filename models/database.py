@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import sessionmaker, declarative_base
-DATABASE_URL =  "mysql+pymysql://root:henricopereira12@localhost:3306/mobcar"
+DATABASE_URL =  "mysql+pymysql://root:*****@localhost:3306/****"
 
 engine = create_engine(DATABASE_URL,echo=True)
 Session = sessionmaker(bind=engine)
